@@ -15,6 +15,7 @@
             </p>
         </li>
     #endfor
+    <p><a href="/routes/upload">Upload route</a></p>
 </ul>
   </body>
 </html>

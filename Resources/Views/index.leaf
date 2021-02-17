@@ -9,7 +9,6 @@
   <h1>Hikr</h1>
   <ul>
   	<li><a href="/routes">Routes list</a></li>
-  	<li><a href="/uploadRoute">Upload route</a></li>
   </ul>
 </body>
 </html>

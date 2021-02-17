@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  
-//
-//  Created by Jan Bjelicic on 16/02/2021.
-//
-
 import Vapor
 import Fluent
 import FluentSQLiteDriver
