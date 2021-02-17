@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upload route</title>
+  </head>
+  <body>
+    <h1>Upload route</h1>
+
+    <form action="/uploadRoute" method="post" enctype="multipart/form-data">
+        <p>Name: <input type="text" name="nameText"/></p>
+        <input type="file" name="file"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

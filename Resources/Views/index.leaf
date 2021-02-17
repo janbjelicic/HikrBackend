@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>#(title)</title>
+  <title>Hikr</title>
 </head>
 
 <body>
-  <h1>#(title)</h1>
+  <h1>Hikr</h1>
+  <ul>
+  	<li><a href="/routes">Routes list</a></li>
+  	<li><a href="/uploadRoute">Upload route</a></li>
+  </ul>
 </body>
 </html>

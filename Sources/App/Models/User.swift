@@ -15,7 +15,7 @@ extension FieldKey {
     static var date: Self { "date" }
 }
 
-final class Login: Content, Model, Migration {
+final class User: Content, Model, Migration {
     
     static let schema = "Login"
     
@@ -41,7 +41,7 @@ final class Login: Content, Model, Migration {
     }
     
     func prepare(on database: Database) -> EventLoopFuture<Void> {
-        database.schema(Login.schema)
+        database.schema(User.schema)
             .id()
             .field(.email, .string, .required)
             .field(.password, .string, .required)
@@ -50,7 +50,7 @@ final class Login: Content, Model, Migration {
     }
     
     func revert(on database: Database) -> EventLoopFuture<Void> {
-        database.schema(Login.schema).delete()
+        database.schema(User.schema).delete()
     }
     
 }

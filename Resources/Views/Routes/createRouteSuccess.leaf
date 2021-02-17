@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Route uploaded</title>
+  </head>
+  <body>
+    <h1>Route uploaded</h1>
+    <a href="#(fileUrl)" target="_blank">Show me!</a><br><br>
+    
+    <a href="/">Upload new one</a>
+  </body>
+</html>
